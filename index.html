@@ -1,0 +1,35 @@
+<!-- this for form -->
+ 
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name" required>
+<br>
+<br>
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email" required>
+<br>
+<br>
+    <label>Password:</label>
+    <input type="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must be Number,letter,symbol at least 8 or more characters">
+<br>
+<br>
+    <label for="home">URL:</label>
+    <input type="url" id="home" name="website" title="please given url link" pattern="https?://.+">
+<br>
+<br>
+    <label>Radio:</label>
+    <input type="radio">
+    <br>
+    <br>
+    <label>1st Checkbox:</label>
+    <input type="checkbox">
+    <br>
+    <br>
+    <label>2nd Checkbox:</label>
+    <input type="checkbox">
+    <br>
+    <br>
+    <label>3rd Checkbox:</label>
+    <input type="checkbox">
+    <button type="submit">Submit</button>
+</form>
